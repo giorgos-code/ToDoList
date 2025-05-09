@@ -1,0 +1,56 @@
+body{
+    background-color: hsl(0, 0%, 95%);
+    margin: 0;
+    overflow-x: hidden; 
+}
+h1{
+    color: blue;
+}
+form{
+    background-color: hsl(0, 0%, 100%);
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 15px rgb(40, 46, 163);
+    
+}
+#textfield{
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+}
+button{
+    background-color: red;
+    color: black;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: lightgoldenrodyellow;
+}
+#result{
+    font-size: 1.75em;
+    font-weight: bold;
+}
+@media (max-width: 500px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    button {
+        font-size: 16px;
+        padding: 8px;
+    }
+
+    #result {
+        font-size: 1.25em;
+    }
+    #textfield {
+        width: 100%;
+    }
+}
